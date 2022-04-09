@@ -2,8 +2,8 @@ public class Encapsulation {
 
     private String musicInstrument;
 
-    public Encapsulation(){
-
+    public Encapsulation(String str){
+        musicInstrument = str;
     }
 
     public String getMusicInstrument() {
